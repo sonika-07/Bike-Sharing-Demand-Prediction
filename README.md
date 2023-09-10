@@ -84,3 +84,10 @@ The programming language used in this project is Python. The following libraries
   - Decision Tree Regressor
   - Random Forest Regressor
   - Extreme Gradient Boost
+  - 
+## **Conclusion**
+
+* Since there is no linear dependency among dependent and independent variables, Linear regression models do not give greater results.
+* Hence tree-based models are preferred over linear models to predict the count of rented bikes.
+* Among the tree-based models, XGB is providing the best result in terms of adjusted R2 (91.32%) and Root mean squared error.
+* One can prefer XGB for predicting the count of rented bikes given the weather conditions.
